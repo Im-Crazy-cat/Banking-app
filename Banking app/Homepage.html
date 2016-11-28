@@ -1,39 +1,51 @@
 <!doctype html>
 <html>
   <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" name="viewport" content="width=device-width"/>
     <title>HSBC Banking</title>
+    <link rel="stylesheet" href="Homepage.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
-    <link rel="stylesheet" href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css>
     <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css">
-    <link rel="stylesheet" href="css/../Homepage.css">
   </head>
     <body>
-      <!-- Dropdown Structure -->
-            <ul id="dropdown1" class="dropdown-content">
-              <li><a href="#!">How does it work??</a></li>
-              <li><a href="#!">Transactions</a></li>
-              <li class="divider"></li>
-              <li><a href="#!">Balance</a></li>
+      <div id="big-wrapper">
+                    <!-- Dropdown Structure -->
+            <ul id="dropdown-p" class="dropdown-content">
+                <li><a href="#!" style="color:red">How does it work??</a></li>
+                <li class="divider"></li>
+                <li><a href="#!" style="color:red">Transactions</a></li>
+                <li class="divider"></li>
+                <li><a href="#!" style="color:red"></a></li>
+                <li class="divider"></li>
+                <li><a href="#!" style="color:red">About us/Find us</a></li>
             </ul>
-            <nav class= "red darken-3">
-              <div class="nav-wrapper">
-                <a href="#!" class="brand-logo">Logo</a>
-                <ul class="right hide-on-med-and-down">
-                  <!-- Dropdown Trigger -->
-                  <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Personal<i class="material-icons right">arrow_drop_down</i></a></li>
-                  <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Settings<i class="material-icons right">arrow_drop_down</i></a></li>
-                  <li><a href="badges.html" class="btn-lg round outline">Login</a></li>
-                  <li><a href="sass.html" class="btn-lg round outline">Signup</a></li>
+            <ul id="dropdown-s" class="dropdown-content">
+                <li><a href="#!" style="color:red">Account</a></li>
+                <li class="divider"></li>
+                <li><a href="#!" style="color:red">Bank details</a></li>
+                <li class="divider"></li>
+                <li><a href="#!" style="color:red">Balance</a></li>
+                <li class="divider"></li>
+                <li><a href="#!" style="color:red">Help!</a></li>
             </ul>
+          <nav class= "red darken-4">
 
-        </div>
-    </nav>
+            <div class="nav-wrapper">
+              <a href="#!" class="brand-logo"><img src="HSBC.svg" style="padding:10px" height=67px /> </a>
+            <ul class="right hide-on-med-and-down">
+                    <!-- Dropdown Trigger -->
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown-p">Personal<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown-s">Settings<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="Signup.html" >Signup</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </body>
     <footer></footer>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
 </html>

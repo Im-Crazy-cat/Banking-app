@@ -3,3 +3,13 @@ body {
   background-size: 3684px 1080px;
   background-repeat: no-repeat;
 }
+.wrapper {
+  position: relative;
+  min-height: 100%;
+}
+div {
+  display: block;
+}
+.main-content {
+  height: 360px;
+}
