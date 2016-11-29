@@ -3,13 +3,12 @@ body {
   background-size: 3684px 1080px;
   background-repeat: no-repeat;
 }
-.wrapper {
-  position: relative;
-  min-height: 100%;
+form {
+  background-color: #CAC6C6;
+  margin-left: 770px;
+  margin-right:770px;
+  margin-top: 100px;
 }
-div {
-  display: block;
-}
-.main-content {
-  height: 360px;
+#mail {
+  text-decoration-color: red;
 }
