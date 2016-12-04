@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
   <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width"/>
     <title>
       Login to HSBC
     </title>
@@ -10,18 +11,23 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css">
   </head>
         <body>
-      <form>
-         <fieldset>
-         <p>
-           <label><h6>E-mail</h6></label>
-           <input type = "text" id = "mail" />
-         </p>
-         <p>
-           <label><h6>Password</h6></label>
-           <input type = "password" id = "myPwd" />
-         </p>
-        <a href="Homepage.html"><button class="buttons" type="buttons" style="color:red">Login in</button>
-          </body>
+                    <div class="row">
+              <form class="col s12">
+                <div class="row">
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="icon_prefix" type="text" class="validate">
+                    <label for="icon_prefix">First Name</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">vpn_key</i>
+                    <input id="vpn_key" type="tel" class="validate">
+                    <label for="vpn_key">Password</label>
+                  </div>
+                </div>
+              </form>
+            </div>
+        </body>
 
   <footer></footer>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
