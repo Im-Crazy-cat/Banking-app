@@ -1,66 +1,150 @@
 <!doctype html>
 <html>
-<head>
-  <meta charset="utf-8" name="viewport" content="width=device-width"/>
-  <title>
-    Sign up for new account
-  </title>
-  <link rel="stylesheet" href="Signup.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
-  <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css">
-</head>
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width"/>
+    <title>
+      Sign up for new account
+    </title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css">
+    <link rel="stylesheet" href="Signup.css">
+  </head>
     <body>
-      <div class="row">
-    <form class="col s12">
-      <div class="row">
-        <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate">
-          <label for="last_name">First Name</label>
-        </div>
-        <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate">
-          <label for="last_name">Last Name</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="password" type="password" class="validate">
-          <label for="password">Password</label>
-          <div class="input-field col s12">
-            <input id="password" type="password" class="validate">
-            <label for="password">Re-enter Password</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="email" type="email" class="validate">
-          <label for="email">Email</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s12">
-          <div class="input-field inline">
-            <input id="email" type="email" class="validate">
-            <label for="email" data-error="wrong" data-success="right">Re-enter Email</label>
+      <div id="big wrapper">
+        <nav class= "red darken-4">
+          <div class="nav-wrapper">
+            <a href="Homepage.html" class="brand-logo"><img src="HSBC.svg" style="padding:10px" height=67px /> </a>
+              <ul id="slide-out" class="side-nav">
+            <li><a href="Homepage.html">Home</a></li>
+                <li class="no-padding">
+                  <ul class="collapsible collapsible-accordion">
+                    <li>
+                      <a class="collapsible-header">Personal<i class="material-icons">arrow_drop_down</i></a>
+                      <div class="collapsible-body">
+                        <ul>
+                          <li><a href="How.html" style="color:red">How does it work??</a></li>
+                          <li class="divider"></li>
+                          <li><a href="Transaction.html" style="color:red">Transactions</a></li>
+                          <li class="divider"></li>
+                          <li><a href="#!" style="color:red">About us/Find us</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <a class="collapsible-header">Settings<i class="material-icons">arrow_drop_down</i></a>
+                      <div class="collapsible-body">
+                        <ul>
+                          <li><a href="#!" style="color:red">Account</a></li>
+                          <li class="divider"></li>
+                          <li><a href="#!" style="color:red">Bank details</a></li>
+                          <li class="divider"></li>
+                          <li><a href="#!" style="color:red">Balance</a></li>
+                          <li class="divider"></li>
+                          <li><a href="#!" style="color:red">Help!</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="Signup.html" >Signup</a></li>
+              </ul>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Personal<i class="material-icons right">arrow_drop_down</i></a></li>
+                <ul id='dropdown1' class='dropdown-content'>
+                  <li><a href="How.html" style="color:red">How does it work??</a></li>
+                  <li class="divider"></li>
+                  <li><a href="Transaction.html" style="color:red">Transactions</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#!" style="color:red">About us/Find us</a></li>
+                </ul>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Settings<i class="material-icons right">arrow_drop_down</i></a></li>
+                <ul id='dropdown2' class='dropdown-content'>
+                  <li><a href="#!" style="color:red">Account</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#!" style="color:red">Bank details</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#!" style="color:red">Balance</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#!" style="color:red">Help!</a></li>
+                </ul>
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="Signup.html" >Signup</a></li>
+              </ul>
+              <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+            </nav>
+              <div class="row">
+                  <form class="col s12">
+                    <div class="row">
+                      <div class="input-field col s6 onClick-color:red">
+                        <input id="first_name" type="text" class="validate">
+                        <label for="last_name">First Name</label>
+                      </div>
+                      <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
+                      </div>
+                    </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="password" type="password" class="validate" style="onClick:red" >
+                        <label for="password">Password</label>
+                    <div class="input-field col s12">
+                        <input id="password" type="password" class="validate">
+                        <label for="password">Re-enter Password</label>
+                    </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col s12">
+                        <div class="input-field inline">
+                          <input id="email" type="email" class="validate">
+                          <label for="email" data-error="wrong" data-success="right">Re-enter Email</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col s6">
+                        <div class="input-field inline">
+                          <input id="email" type="text" class="validate">
+                          <label for="email" data-error="wrong" data-success="right">Phone Number</label>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              <div class="center">
+                <a class="waves-effect waves-light btn red darken-4">Sign up</a>
+                <a href="Homepage.html" class="waves-effect waves-light btn red darken-4">Back</a>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col s12">
-          <div class="input-field inline">
-            <input id="email" type="email" class="validate">
-            <label for="email" data-error="wrong" data-success="right">Phone Number</label>
-          </div>
-        </div>
-      </div>
-    </form>
-  </div>
-    <a class="waves-effect waves-light btn red darken-4">Sign up</a>
     </body>
-
-<footer></footer>
+          <footer class="page-footer red darken-4">
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">From <a class="red-text text-lighten-3" href="http://www.logicstudioschool.org/"> Logic Studio School</a></h5>
+                    <p class="grey-text text-lighten-4">Created by Student for project*Just Testing Our Skills*</p>
+                </div>
+              </div>
+            </div>
+              <div class="footer-copyright">
+                <div class="container">
+                  © 2016 Made by Cat
+                </div>
+              </div>
+          </footer>
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
   <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+  <script src="int.js"></script>
 </html>

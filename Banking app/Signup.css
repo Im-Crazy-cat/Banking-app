@@ -1,5 +1,70 @@
 body {
-  background-image: url(Red.jpg);
-  background-size: 1920px 1080px;
+  background: -webkit-radial-gradient(red,black);
+  background-size: 3684px 1080px;
   background-repeat: no-repeat;
+}
+/* label color */
+.input-field label {
+     color: #cc0000;
+}
+   /* label focus color text*/
+.input-field input[type=text]:focus + label {
+     color: #cc0000;
+}
+   /* label underline focus color */
+.input-field input[type=text]:focus {
+     border-bottom: 1px solid #cc0000;
+     box-shadow: 0 1px 0 0 #cc0000;
+}
+   /* valid color */
+.input-field input[type=text].valid {
+     border-bottom: 1px solid #cc0000;
+     box-shadow: 0 1px 0 0 #cc0000;
+}
+   /* invalid color */
+.input-field input[type=text].invalid {
+     border-bottom: 1px solid #cc0000;
+     box-shadow: 0 1px 0 0 #cc0000;
+}
+   /* icon prefix focus color */
+.input-field .prefix.active {
+     color: #cc0000;
+}
+/* label focus color password */
+.input-field input[type=password]:focus + label {
+  color: #cc0000;
+}
+/* label underline focus color */
+.input-field input[type=password]:focus {
+  border-bottom: 1px solid #cc0000;
+  box-shadow: 0 1px 0 0 #cc0000;
+}
+/* valid color */
+.input-field input[type=password].valid {
+  border-bottom: 1px solid #cc0000;
+  box-shadow: 0 1px 0 0 #cc0000;
+}
+/* invalid color */
+.input-field input[type=password].invalid {
+  border-bottom: 1px solid #cc0000;
+  box-shadow: 0 1px 0 0 #cc0000;
+}
+/* label focus color email */
+.input-field input[type=email]:focus + label {
+  color: #cc0000;
+}
+/* label underline focus color */
+.input-field input[type=email]:focus {
+  border-bottom: 1px solid #cc0000;
+  box-shadow: 0 1px 0 0 #cc0000;
+}
+/* valid color */
+.input-field input[type=email].valid {
+  border-bottom: 1px solid #cc0000;
+  box-shadow: 0 1px 0 0 #cc0000;
+}
+/* invalid color */
+.input-field input[type=email].invalid {
+  border-bottom: 1px solid #cc0000;
+  box-shadow: 0 1px 0 0 #cc0000;
 }

@@ -1,0 +1,12 @@
+body {
+  background: -webkit-radial-gradient(red,black);
+  background-size: 3684px 1080px;
+  background-repeat: no-repeat;
+}
+h2,h4 {
+  color:#ffebee ;
+}
+h5 {
+  color: #ffcdd2;
+
+}
